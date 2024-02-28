@@ -1,0 +1,82 @@
+main{
+    display: flex;
+    max-height: 2800px;
+    max-width: 100%;
+}
+
+#left{
+
+    display: flex;
+    width: 72%;
+    flex-direction: column;
+}
+
+#top
+{
+    display: flex;
+    justify-content: center;
+    background-color: OliveDrab;
+    padding: 20px;
+    height: 100px;  
+}
+
+#center{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    background-color: CadetBlue;
+    padding: 20px;
+}
+
+.Pozdro{
+    display: flex;
+    margin-top: 50px;
+}
+
+.centerf{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+.contact{
+    display: flex;
+    font-size: 50px;
+}
+
+#center img{
+    margin-top: 20px;
+
+    border-radius: 10px;
+
+    display: flex;
+width:300px;
+height:200px
+}
+
+#right{
+    align-items: center;
+    flex-direction: column;
+    background-color: Olive;
+    display: flex;
+    width: 28%;
+    height: 760px;
+}
+
+table {
+    width: 80%;
+    border: 1px solid DarkOliveGreen;
+}
+tr:hover {
+    background-color: OliveDrab;
+    color: white;
+}
+
+#right img{
+    margin: auto;
+}
